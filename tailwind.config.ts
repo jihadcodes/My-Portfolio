@@ -1,3 +1,4 @@
+import { darkSaasLandingPage } from '@/assets/images/dark-saas-landing-page.png';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
@@ -20,7 +21,12 @@ const config: Config = {
         md: "2rem",
       },
     },
-    extend: {},
+    extend: {
+      fontFamily :{
+        sans : 'var(--font-sans)',
+        serif : "var(--font-serif)",
+      }
+    },
   },
   plugins: [],
 };
