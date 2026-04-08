@@ -14,17 +14,18 @@ export const HeroSection = () => {
         </div>
         <h1 className="font-serif text-3xl text-center mt-8  tracking-wide">Building Exceptional User Experiences</h1>
 
-        <p>
+        <p className="mt-4 text-center text-white/60">
           I specialized in transforming designs into functional,
           high-perfortmance web applications. Let's discuss your next project.
+        '
         </p>
-        <div>
-          <button>
-            <span>Explore My Work</span>
-            <ArrowDown />
+        <div className="flex flex-col items-center mt-8  ">
+          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl ">
+            <span className="font-semibold ">Explore My Work</span>
+            <ArrowDown className="size-4" />
           </button>
-          <button>
-            <span>Let's Connect</span>
+          <button className="mt-4 inline-flex items-center gap-2 border border-white bg-white text-gray-900 px-6 h-12 rounded-xl ">
+            <span className="font-semibold  ">Let's Connect</span>
           </button>
         </div>
       </div>
