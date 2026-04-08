@@ -31,8 +31,26 @@ export const HeroSection = () => {
       <HeroOrbit size={590} rotation={98}>
           <StartIcon className="size-12 text-emerald-300 " />
        </HeroOrbit>
-      <HeroOrbit size={430} rotation={98}>
-          <SparkleIcon className="size-8 text-emerald-300 " />
+      <HeroOrbit size={430} rotation={-14}>
+          <SparkleIcon className="size-8 text-emerald-300/20 " />
+       </HeroOrbit>
+      <HeroOrbit size={440} rotation={79}>
+          <SparkleIcon className="size-5 text-emerald-300/20 " />
+       </HeroOrbit>
+      <HeroOrbit size={530} rotation={178}>
+          <SparkleIcon className="size-10 text-emerald-300/20 " />
+       </HeroOrbit>
+      <HeroOrbit size={710} rotation={144}>
+          <SparkleIcon className="size-14 text-emerald-300/20 " />
+       </HeroOrbit>
+      <HeroOrbit size={720} rotation={85}>
+          <div className="size-3 bg-emerald-300/20 rounded-full " />
+       </HeroOrbit>
+      <HeroOrbit size={650} rotation={-5}>
+          <div className="size-2 bg-emerald-300/20 rounded-full " />
+       </HeroOrbit>
+      <HeroOrbit size={520} rotation={-41}>
+          <div className="size-2 bg-emerald-300/20 rounded-full " />
        </HeroOrbit>
 
       <div className="container">

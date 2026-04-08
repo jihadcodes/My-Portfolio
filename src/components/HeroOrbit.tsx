@@ -9,7 +9,7 @@ export const  HeroOrbit = ({
   return (
     <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2
       ">
-        <div className=""
+        <div className=" flex items-start justofy-start "
          style={{
             transform: `rotate(${rotation}deg)`,
         height: `${size}px`,
@@ -17,9 +17,7 @@ export const  HeroOrbit = ({
         
         }} 
         >
-        <div className=" inline-flex 
-        transform: `rotate(${-rotation * -1}deg)`,
-        }} ">
+        <div className=" inline-flex   ">
             {children}
         </div>
         </div>
