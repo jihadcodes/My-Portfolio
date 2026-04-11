@@ -1,4 +1,4 @@
-import { darkSaasLandingPage } from '@/assets/images/dark-saas-landing-page.png';
+import  darkSaasLandingPage  from '@/assets/images/dark-saas-landing-page.png';
 import type { Config } from "tailwindcss";
 
 const config: Config = {
