@@ -12,6 +12,8 @@
 }
 
 @layer utilities {
-    @apply lg:max-w-5xl 
+    .container {
+        @apply lg:max-w-5xl 
+    }
 
 }
